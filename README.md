@@ -7,6 +7,8 @@
 Aplikacija je zamišljena kao online kupovina koja korisniku pomaže da pri istoj prođe što jefinije i sačuva više novca u džepu. Ispred korisnika se nalaze ponude iz više prodavnica (koje su članice aplikacije) za traženi proizvod na osnovu kojih bira najbolju ponudu. Takođe može izabrati i neku od partnerskih kurirskih službi koje u svojoj ponudi imaju simboličnu fiksnu cenu, nezavisnu od količine ili tereta porudžbine.
 
 ### Opis:
+Korišćen je code first pristup.
+
 API predstavlja skup endpointa preko kojih korisnik moze da se registruje (kreira svoj korisnički nalog), autorizuje (upotrebom JWT-a) i izvršava privilegije (UseCases) koje su dodeljene autorizovanim korisnicima aplikacije.
 
 Granulacija privilegija je na nivou svakog korisnika, gde adminitrator svakom pojedinačnom korisniku može dodati ili oduzeti privilegiju.
@@ -19,6 +21,8 @@ Mapiranje dto objekata realizovano je preko Automapper-a.
 Validacija podataka pri upisu i izmeni realizovana je preko FluentValidation biblioteke.
 
 Administrator ima pristup pokušajima izvršavanja slučaja korišćenja koji su zabeleženi u tabeli koja predstavlja audit log. Moguća je i pretraga audit log-a.
+
+Implementirana je i Swagger specifikacija.
 
 ### Dodatna uputstva za pregledanje:
 Kredencijali:
