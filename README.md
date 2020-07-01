@@ -26,12 +26,15 @@ Implementirana je i Swagger specifikacija.
 
 ### Dodatna uputstva za pregledanje:
 Kredencijali:
+
 Administrator: Email: admin@bestbuy.rs ; Password: admin123
+
 Autorizovani korisnik: Email: marko.mutavdzic.125.16@ict.edu.rs ; Password: sifra123
 
-Postman: Pri upisu novog proizvoda podatke slati preko Body / form-data.
+Postman:
+Pri upisu novog proizvoda podatke slati preko Body / form-data.
 
-###Napomene:
+### Napomene:
 
 Korišćen je code-first pristup ali ne i faker za upis podataka, pa sam u root projekta dodao i dva sql fajla (BestBuyApp.bacpac i BestBuyApp.sql) za ispunjavanje baze podacima. 
 
