@@ -31,6 +31,12 @@ Autorizovani korisnik: Email: marko.mutavdzic.125.16@ict.edu.rs ; Password: sifr
 
 Postman: Pri upisu novog proizvoda podatke slati preko Body / form-data.
 
+###Napomene:
+
+Korišćen je code-first pristup ali ne i faker za upis podataka, pa sam u root projekta dodao i dva sql fajla (BestBuyApp.bacpac i BestBuyApp.sql) za ispunjavanje baze podacima. 
+
+Sloj Implementation se prvobino zvao EfCommands pa je iz nekog razloga ostalo ime foldera, dok je kada se otvori Solution i sam folder EfCommands ime sloja Implementation.
+
 ### Database Diagram:
 [Link: Dijagram baze podataka](https://imgur.com/gu9iMh2)
 
